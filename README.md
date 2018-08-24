@@ -1,0 +1,7 @@
+# HelloSpring
+基于Spring Framework 4.0.4框架
+使用Maven来声明Spring库，本案例主要是IOC的一个案列。
+通过HelloWorldService类管理创建HelloWorld对象，当HelloWorldService对象从它的构造创建时，HelloWorld对象也被创建了。
+IoC容器将充当管理者角色，创建了HelloWorldSevice和HelloWorld对象，通过setter方法传递HelloWorld对象到HelloWorldService。
+beans.xml用于配置声明Java bean。
+通过读取beans.xml文件来创建一个应用程序上下文对象。
